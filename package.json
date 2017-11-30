@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-dom": "16.2.0"
+    "react-dom": "16.2.0",
+    "verror": "1.10.0"
   }
 }
