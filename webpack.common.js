@@ -1,3 +1,4 @@
+const HTMLPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 const config = {
@@ -25,6 +26,12 @@ const config = {
       },
     ],
   },
+  plugins: [
+    new HTMLPlugin({
+      title: 'Transcript',
+      template: 'src/index.html',
+    }),
+  ],
 };
 
 module.exports = config;
