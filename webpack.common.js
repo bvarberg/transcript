@@ -1,9 +1,8 @@
 const path = require('path');
-const webpack = require('webpack');
 
 const config = {
   entry: {
-    transcript: './src/index.js',
+    transcript: './src/index.jsx',
   },
   output: {
     filename: '[name].[hash].js',
